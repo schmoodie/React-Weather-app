@@ -1,0 +1,152 @@
+.weatherApp{
+    width: 80vw;
+    height: 100vh;
+    margin: auto;
+}
+.cloudy{
+    background-image: url("./WeatherImages/cloudy.png");
+}
+.partly-cloudy{
+    background-image: url("./WeatherImages/partly-cloudy.png");
+}
+.sunny{
+    background-image: url("./WeatherImages/sun.png");
+}
+.snowy{
+    background-image: url("./WeatherImages/snow.png");
+}
+
+div{
+    margin: 0;
+    padding: 0;
+
+}
+
+.selected-city{
+    text-align: center;
+    font-size: 50px;
+}
+.search-bar{
+    width: 100%;
+   
+   
+}
+.search-bar h1{
+    margin: 0;
+    text-align: center;
+    padding-top: 6vh;
+}
+
+
+form{
+   width: 100%;
+   text-align: center;
+}
+form button{
+    display: none;
+    
+    
+
+}
+input {
+    background: radial-gradient(circle at 100% 100%, #ffffff 0, #ffffff 3px, transparent 3px) 0% 0%/8px 8px no-repeat,
+    radial-gradient(circle at 0 100%, #ffffff 0, #ffffff 3px, transparent 3px) 100% 0%/8px 8px no-repeat,
+    radial-gradient(circle at 100% 0, #ffffff 0, #ffffff 3px, transparent 3px) 0% 100%/8px 8px no-repeat,
+    radial-gradient(circle at 0 0, #ffffff 0, #ffffff 3px, transparent 3px) 100% 100%/8px 8px no-repeat,
+    linear-gradient(#ffffff, #ffffff) 50% 50%/calc(100% - 10px) calc(100% - 16px) no-repeat,
+    linear-gradient(#ffffff, #ffffff) 50% 50%/calc(100% - 16px) calc(100% - 10px) no-repeat,
+    linear-gradient(90deg, #1A6DFF 0%, #C822FF 100%);
+    border-radius: 8px;
+    width: 50vw;
+    height: 2vh;;
+    margin: 4vw;
+    margin-top: 10vh;
+    font-size: 25px;
+    padding: 10px;
+    font-family: 'Titan One';
+    text-align: center;
+
+
+}
+input{
+    outline:none;
+}
+
+
+.current-weather-wrapper{
+    background: radial-gradient(circle at 100% 100%, #ffffff 0, #ffffff 3px, transparent 3px) 0% 0%/8px 8px no-repeat,
+    radial-gradient(circle at 0 100%, #ffffff 0, #ffffff 3px, transparent 3px) 100% 0%/8px 8px no-repeat,
+    radial-gradient(circle at 100% 0, #ffffff 0, #ffffff 3px, transparent 3px) 0% 100%/8px 8px no-repeat,
+    radial-gradient(circle at 0 0, #ffffff 0, #ffffff 3px, transparent 3px) 100% 100%/8px 8px no-repeat,
+    linear-gradient(#ffffff, #ffffff) 50% 50%/calc(100% - 10px) calc(100% - 16px) no-repeat,
+    linear-gradient(#ffffff, #ffffff) 50% 50%/calc(100% - 16px) calc(100% - 10px) no-repeat,
+    linear-gradient(90deg, #1A6DFF 0%, #C822FF 100%);
+    border-radius: 8px;
+    padding: 9px;
+    box-sizing: border-box;    
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    margin-top: -5vh;
+    
+
+}
+
+.current-weather{
+    margin-top: 6vh;
+    display: flex;
+    gap: 15vw;
+    justify-content: center;
+}
+
+.img{
+    width: 15vw;
+    height: 15vw;
+    margin: auto;
+    background-size: cover; 
+    image-rendering:optimizeQuality;
+  
+}
+
+
+
+/* forecast */
+
+.forecast-wrapper{
+    display: flex;
+    gap: 3vw;
+    overflow: auto;
+    white-space: nowrap;
+    width: 100%;
+    margin: auto;
+    margin-top: 10vh;
+
+}
+
+.forecast-time{
+    text-align: center;
+    background: radial-gradient(circle at 100% 100%, #ffffff 0, #ffffff 3px, transparent 3px) 0% 0%/8px 8px no-repeat,
+    radial-gradient(circle at 0 100%, #ffffff 0, #ffffff 3px, transparent 3px) 100% 0%/8px 8px no-repeat,
+    radial-gradient(circle at 100% 0, #ffffff 0, #ffffff 3px, transparent 3px) 0% 100%/8px 8px no-repeat,
+    radial-gradient(circle at 0 0, #ffffff 0, #ffffff 3px, transparent 3px) 100% 100%/8px 8px no-repeat,
+    linear-gradient(#ffffff, #ffffff) 50% 50%/calc(100% - 10px) calc(100% - 16px) no-repeat,
+    linear-gradient(#ffffff, #ffffff) 50% 50%/calc(100% - 16px) calc(100% - 10px) no-repeat,
+    linear-gradient(90deg, #1A6DFF 0%, #C822FF 100%);
+    border-radius: 8px;
+    padding: 3vw;
+    
+}
+
+.forecast-icon{
+    width: 6vw;
+    height: 6vw;
+    background-size: cover;
+    margin: auto;
+}
+.forecast-time p{
+    font-size: 20px;
+}
+
+
+
+
